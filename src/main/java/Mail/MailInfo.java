@@ -16,6 +16,6 @@ public class MailInfo {
     }
 
     public void toStr() {
-        System.out.printf("Dear %s, %s.\n", client.getName(), mailCode.toString());
+        System.out.printf("Dear %s, %s\n", client.getName(), mailCode.toString());
     }
 }
