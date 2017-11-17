@@ -15,6 +15,6 @@ public class MailSender {
     }
     public void sentMail(){
         this.getMailInfo().getClient().addMail(mailInfo);
-        System.out.println(mailInfo.toString());
+        mailInfo.toStr();
     }
 }
