@@ -15,9 +15,7 @@ public class MailInfo {
         return mailCode;
     }
 
-    @Override
-    public String toString() {
-        return getMailCode().testString().format(client.getName(), client.getAge());
+    public void toStr() {
+        System.out.printf("Dear {0}, {1}", client.getName(), mailCode.toString());
     }
-
 }
